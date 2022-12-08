@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import { Usestate } from './Components/UseState/Usestate';
+import { CallbackParent } from './Components/UseCallBack/CallbackParent';
+import { Useref } from './Components/UseRef/Useref';
+import { UserefParent } from './Components/ForwardRef/UserefParent';
+import { Usememo } from './Components/UseMemo/Usememo';
+import { Parent } from './Components/ContaxApi/Parent';
+import { Usereducer } from './Components/UseReducer/Usereducer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App"> 
+     {/* <Usestate/> */}
+     {/* <CallbackParent/> */}
+     {/* <Useref/> */}
+     {/* <UserefParent/> */}
+     {/* <Usememo/> */}
+     {/* <Parent/> */}
+     <Usereducer/>
     </div>
   );
 }
